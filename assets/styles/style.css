@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* body{
+  display: flex;
+  justify-content: space-between;
+} */
+
+.draggableBox{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  background-color: skyblue;
+}
+
+.droppableBox{
+  width: 300px;
+  height: 100vh;
+  cursor: pointer;
+  background-color: rgb(14, 77, 102);
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+}
